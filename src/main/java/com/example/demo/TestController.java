@@ -12,5 +12,13 @@ public class TestController {
 		
 		return "hello World";
 	}
-
+@PutMapping("/Welcome")
+	public String update() {
+		
+		return "hello from update";
+	}
+	@PostMapping("/Welcome")
+	public String create() {
+		
+		return "hello from create";
 }
